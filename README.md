@@ -1,5 +1,30 @@
 # README
 
+This repository contains the source code to reproduce the experiments of the paper "On the Lipschitz Constant of Deep Networks and Double Descent", M. Gamba, H. Azizpour, M. Björkman. BMVC 2023.
+
+<table>
+    <tr>
+        <td><img alt="(Top) test error of several deep networks undergoing doulbe descent. (Bottom) the trend is mirrored by our empirical Lipschitz constant estimate." src="./pics/results.png" />
+        </td>
+    </tr>
+    <tr>
+        <td> <i> (Top) Train error (dashed) and test error (solid) for our experimental setting, with the test error undergoing double descent as model size increases. (Left to right) ConvNets trained on CIFAR-10 (left) and CIFAR-100 (mid-left), ResNets trained on CIFAR-10 (mid-right) and Vision Transformers on CIFAR-10 (right). (Bottom) Empirical Lipschitz constant for the same models. The Lipschitz lower bound depends non-monotonically on model size, strongly correlating with double descent, questioning the utility and validity of uniformly-bounded Lipschitz assumptions in representing the hypothesis class of trained networks.</i>
+        </td>
+    </tr>
+</table>
+
+If you use or draw inspiration from this code in your experiments, please cite as:
+
+```latex
+@article{gamba2023lipschitz,
+    title={On the Lipschitz Constant of Deep Networks and Double Descent},
+    author={Matteo Gamba and Hossein Azizpour and M{\r{a}}rten Bj{\"o}rkman},
+    journal={British Machine Vision Conference},
+    year={2023},
+    note={}
+}
+```
+
 ## Set up
 
 To install all required dependencies, run:
