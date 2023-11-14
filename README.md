@@ -1,6 +1,6 @@
 # README
 
-This repository contains the source code to reproduce the experiments of the paper "On the Lipschitz Constant of Deep Networks and Double Descent", M. Gamba, H. Azizpour, M. Björkman. BMVC 2023.
+This repository contains the source code to reproduce the experiments of the paper "[On the Lipschitz Constant of Deep Networks and Double Descent](https://arxiv.org/abs/2301.12309)", M. Gamba, H. Azizpour, M. Björkman. BMVC 2023.
 
 <table>
     <tr>
