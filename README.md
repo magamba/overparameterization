@@ -15,7 +15,7 @@ This repository contains the source code to reproduce the experiments of the pap
 
 If you use or draw inspiration from this code in your experiments, please cite as:
 
-```latex
+```bibtex
 @article{gamba2023lipschitz,
     title={On the Lipschitz Constant of Deep Networks and Double Descent},
     author={Matteo Gamba and Hossein Azizpour and M{\r{a}}rten Bj{\"o}rkman},
